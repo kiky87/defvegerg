@@ -8357,3 +8357,7 @@ Available: [Lnet/minecraft/world/item/ItemStack;, Lnet/minecraft/world/phys/Bloc
 [20Dec2024 16:56:14.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gorou left the game
 [20Dec2024 16:56:24.350] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [20Dec2024 16:56:24.410] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Dec2024 17:01:24.306] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Dec2024 17:01:24.334] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Dec2024 17:06:24.302] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Dec2024 17:06:24.324] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
