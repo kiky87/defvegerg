@@ -1,0 +1,324 @@
+[20Dec2024 16:50:27.620] [main/INFO] [Arclight/]: 
+
+       ___           ___     __   /\
+      /   | ________/ (_)__ / /  / /
+     / /| |/ __/ __/ / / _ / _ \/__/
+    / ___ / / / /_/ / / / / // / /
+   /_/  |/_/  \__/_/_/\_ /_//_/ /
+                     /__/     \/
+
+    运行版本 顿顽 / arclight-1.20.1-1.0.5-1a8925b
+    构建日期 2024-02-28 14:51:40
+
+[20Dec2024 16:50:27.690] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, arclightserver, --fml.forgeVersion, 47.2.20, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[20Dec2024 16:50:27.692] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[20Dec2024 16:50:29.189] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is arclightserver
+[20Dec2024 16:50:29.250] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/defvegerg/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2399!/ Service=ModLauncher Env=SERVER
+[20Dec2024 16:50:29.849] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/defvegerg/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.20/fmlcore-1.20.1-47.2.20.jar is missing mods.toml file
+[20Dec2024 16:50:29.853] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/defvegerg/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.20/javafmllanguage-1.20.1-47.2.20.jar is missing mods.toml file
+[20Dec2024 16:50:29.855] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/defvegerg/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.20/lowcodelanguage-1.20.1-47.2.20.jar is missing mods.toml file
+[20Dec2024 16:50:29.859] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/defvegerg/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.20/mclanguage-1.20.1-47.2.20.jar is missing mods.toml file
+[20Dec2024 16:50:30.148] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: expandability. Using Mod File: /workspaces/defvegerg/servidor_minecraft/mods/expandability-9.0.0.jar
+[20Dec2024 16:50:30.151] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 6 dependencies adding them to mods collection
+[20Dec2024 16:50:34.424] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[20Dec2024 16:50:34.864] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[20Dec2024 16:50:34.876] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [io.izzel.arclight.common.mod.ArclightConnector]
+[20Dec2024 16:50:34.962] [main/INFO] [Arclight/]: 核心 Mixin 配置已加载
+[20Dec2024 16:50:34.966] [main/INFO] [Arclight/]: 服务端优化 Mixin 配置已加载
+[20Dec2024 16:50:34.973] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'arclightserver' with arguments [nogui]
+[20Dec2024 16:50:35.195] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.19.7+mc1.20.1: 84 options available, 0 override(s) found
+[20Dec2024 16:50:35.197] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[20Dec2024 16:50:35.236] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[20Dec2024 16:50:42.151] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[20Dec2024 16:50:43.886] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (22.03 s after launch)
+[20Dec2024 16:50:44.099] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[20Dec2024 16:50:44.099] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[20Dec2024 16:50:47.453] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 3563 milliseconds
+[20Dec2024 16:50:47.933] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_150430_ in mixins.arclight.core.json:world.inventory.AbstractContainerMenuMixin cannot reduce visibiliy of PROTECTED target method, visibility will be upgraded.
+[20Dec2024 16:50:49.258] [main/WARN] [mixin/]: Injection warning: LVT in net/minecraft/world/item/BoatItem::m_7203_(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; has incompatible changes at opcode 158 in callback securitycraft.mixins.json:boat.BoatItemMixin->@Inject::securitycraft$maybeSetSecuritySeaBoatOwner(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/phys/HitResult;Lnet/minecraft/world/phys/Vec3;DLjava/util/List;Lnet/minecraft/world/entity/vehicle/Boat;)V.
+ Expected: [Lnet/minecraft/world/item/ItemStack;, Lnet/minecraft/world/phys/HitResult;, Lnet/minecraft/world/phys/Vec3;, D, Ljava/util/List;, Lnet/minecraft/world/entity/vehicle/Boat;]
+    Found: [Lnet/minecraft/world/item/ItemStack;, Lnet/minecraft/world/phys/BlockHitResult;, Lnet/minecraft/world/phys/Vec3;, D, Ljava/util/List;, Lnet/minecraft/world/entity/vehicle/Boat;]
+Available: [Lnet/minecraft/world/item/ItemStack;, Lnet/minecraft/world/phys/BlockHitResult;, Lnet/minecraft/world/phys/Vec3;, D, Ljava/util/List;, Lnet/minecraft/world/entity/vehicle/Boat;, Ljava/util/Iterator;, Lnet/minecraft/world/entity/Entity;, Lnet/minecraft/world/phys/AABB;]
+[20Dec2024 16:50:51.598] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_230427_ in modernfix-common.mixins.json:perf.cache_upgraded_structures.StructureManagerMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[20Dec2024 16:50:52.408] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[20Dec2024 16:50:52.977] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.animation_overhaul.config.AnimationsConfig.
+[20Dec2024 16:50:52.982] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.animation_overhaul.config.AnimationsConfig read successfully.
+[20Dec2024 16:50:52.997] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.animation_overhaul.config.PlayerConfig.
+[20Dec2024 16:50:52.998] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.animation_overhaul.config.PlayerConfig read successfully.
+[20Dec2024 16:50:52.999] [modloading-worker-0/INFO] [animation_overhaul/]: Animation Overhaul's Config initialized
+[20Dec2024 16:50:53.410] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[20Dec2024 16:50:53.411] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[20Dec2024 16:50:53.413] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[20Dec2024 16:50:53.414] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[20Dec2024 16:50:53.416] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[20Dec2024 16:50:53.418] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[20Dec2024 16:50:53.419] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[20Dec2024 16:50:53.422] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[20Dec2024 16:50:53.726] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.20, for MC 1.20.1 with MCP 20230612.114412
+[20Dec2024 16:50:53.726] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.20 Initialized
+[20Dec2024 16:50:53.888] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[20Dec2024 16:50:53.888] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[20Dec2024 16:50:54.896] [modloading-worker-0/INFO] [necronomicon/]: Necronomicon Initialized
+[20Dec2024 16:50:54.897] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
+[20Dec2024 16:50:54.898] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
+[20Dec2024 16:50:55.156] [modloading-worker-0/WARN] [ModdingLegacy/Lucent/]: [lucent] LUCENT IS A CLIENT SIDE MOD. IT DOES NOT NEED TO BE INSTALLED ON THE SERVER.
+[20Dec2024 16:50:55.598] [modloading-worker-0/INFO] [pointblank/]: Loading mod pointblank
+[20Dec2024 16:50:56.070] [modloading-worker-0/INFO] [Arclight/]: Arclight Mod 已加载
+[20Dec2024 16:50:56.111] [modloading-worker-0/INFO] [Arclight/]: Arclight 事件系统已注册
+[20Dec2024 16:50:56.223] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[20Dec2024 16:50:59.846] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
+[20Dec2024 16:50:59.860] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.Harbinger.Spore.Sentities.BaseEntities.Infected from class com.Harbinger.Spore.Sentities.BaseEntities.Hyper
+[20Dec2024 16:51:00.147] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[20Dec2024 16:51:00.791] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[20Dec2024 16:51:00.857] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[20Dec2024 16:51:00.871] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 1 plugin(s)
+[20Dec2024 16:51:00.872] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[20Dec2024 16:51:00.874] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[20Dec2024 16:51:00.901] [modloading-worker-0/INFO] [Sound Physics - General/]: Initializing Simple Voice Chat integration
+[20Dec2024 16:51:00.902] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 1 plugin(s)
+[20Dec2024 16:51:00.909] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Registering events for 'sound_physics_remastered'
+[20Dec2024 16:51:01.241] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[20Dec2024 16:51:01.242] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[20Dec2024 16:51:01.243] [main/INFO] [terrablender/]: Registered region regions_unexplored:primary to index 1 for type OVERWORLD
+[20Dec2024 16:51:01.244] [main/INFO] [terrablender/]: Registered region regions_unexplored:secondary to index 2 for type OVERWORLD
+[20Dec2024 16:51:01.244] [main/INFO] [terrablender/]: Registered region regions_unexplored:nether to index 1 for type NETHER
+[20Dec2024 16:51:01.381] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[20Dec2024 16:51:01.405] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[20Dec2024 16:51:01.469] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[20Dec2024 16:51:01.469] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[20Dec2024 16:51:01.568] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.20 Target: 47.3.0
+[20Dec2024 16:51:01.568] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[20Dec2024 16:51:01.853] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2508 Target: null
+[20Dec2024 16:51:01.853] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[20Dec2024 16:51:02.373] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: OUTDATED Current: 1.20.1-1.0.17 Target: 1.20.1-1.0.19
+[20Dec2024 16:51:02.374] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[20Dec2024 16:51:02.430] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20Dec2024 16:51:02.474] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: OUTDATED Current: 1.20.1-2.5.26 Target: 1.20.1-2.5.27
+[20Dec2024 16:51:02.474] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[20Dec2024 16:51:02.578] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: AHEAD Current: 1.20.1-1.4.8 Target: null
+[20Dec2024 16:51:02.578] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [lucent] Starting version check at http://changelogs.moddinglegacy.com/lucent.json
+[20Dec2024 16:51:02.613] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[20Dec2024 16:51:02.840] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [lucent] Found status: BETA Current: 1.5.5 Target: null
+[20Dec2024 16:51:02.840] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[20Dec2024 16:51:02.995] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.12 Target: null
+[20Dec2024 16:51:03.142] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/defvegerg/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23263!/assets/.mcassetsroot' uses unexpected schema
+[20Dec2024 16:51:03.143] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/defvegerg/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23263!/data/.mcassetsroot' uses unexpected schema
+[20Dec2024 16:51:06.355] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[20Dec2024 16:51:08.677] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[20Dec2024 16:51:08.697] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:crushing/amethyst_dust: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:crushing'
+[20Dec2024 16:51:08.718] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:milling/amethyst_dust: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:milling'
+[20Dec2024 16:51:08.728] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:organic_compost_from_body_parts: com.google.gson.JsonSyntaxException: Unknown item 'farmersdelight:straw'
+[20Dec2024 16:51:08.733] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[20Dec2024 16:51:08.745] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[20Dec2024 16:51:08.759] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[20Dec2024 16:51:08.808] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[20Dec2024 16:51:08.810] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[20Dec2024 16:51:08.811] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:pressing/compound_plate: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:pressing'
+[20Dec2024 16:51:08.811] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[20Dec2024 16:51:08.812] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:mixing/compound: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:mixing'
+[20Dec2024 16:51:08.817] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[20Dec2024 16:51:08.820] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 17 recipes
+[20Dec2024 16:51:09.083] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3320 advancements
+[20Dec2024 16:51:09.120] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[20Dec2024 16:51:09.135] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[20Dec2024 16:51:09.141] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
+[20Dec2024 16:51:09.181] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
+[20Dec2024 16:51:09.396] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[20Dec2024 16:51:09.396] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[20Dec2024 16:51:09.396] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[20Dec2024 16:51:09.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[20Dec2024 16:51:09.547] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[20Dec2024 16:51:09.612] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[20Dec2024 16:51:09.733] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20Dec2024 16:51:09.733] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[20Dec2024 16:51:09.733] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20Dec2024 16:51:09.733] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[20Dec2024 16:51:10.042] [Server thread/INFO] [Minecraft/]: This server is running Arclight version arclight-1.20.1-1.0.5-1a8925b (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
+[20Dec2024 16:51:11.021] [Server thread/INFO] [Arclight/]: 正在向 Bukkit 注册 ...
+[20Dec2024 16:51:11.762] [Server thread/INFO] [Arclight/]: 注册了 3397 个材料，其中 2136 个方块 1261 个物品
+[20Dec2024 16:51:11.788] [Server thread/INFO] [Arclight/]: 注册了 105 个新的药水效果
+[20Dec2024 16:51:11.809] [Server thread/INFO] [Arclight/]: 注册了 54 个新的附魔
+[20Dec2024 16:51:11.903] [Server thread/INFO] [Arclight/]: 注册了 444 个新的生物类型
+[20Dec2024 16:51:11.906] [Server thread/INFO] [Arclight/]: 注册了 2 个新的村民职业
+[20Dec2024 16:51:11.927] [Server thread/INFO] [Arclight/]: 注册了 93 个新的生物群系
+[20Dec2024 16:51:11.981] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+[20Dec2024 16:51:11.984] [Server thread/INFO] [STDOUT/]: Server Ping Player Sample Count: 12
+[20Dec2024 16:51:11.988] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+[20Dec2024 16:51:12.481] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[20Dec2024 16:51:13.010] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[20Dec2024 16:51:13.012] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[20Dec2024 16:51:13.066] [Server thread/INFO] [Arclight/]: 注册了 1 个新的世界类型
+[20Dec2024 16:51:13.854] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world] --------
+[20Dec2024 16:51:13.855] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[20Dec2024 16:51:13.856] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[20Dec2024 16:51:13.864] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[20Dec2024 16:51:13.865] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[20Dec2024 16:51:13.866] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20Dec2024 16:51:13.867] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[20Dec2024 16:51:13.868] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[20Dec2024 16:51:13.868] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[20Dec2024 16:51:13.869] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[20Dec2024 16:51:13.870] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[20Dec2024 16:51:13.870] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[20Dec2024 16:51:13.871] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[20Dec2024 16:51:13.872] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[20Dec2024 16:51:13.873] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[20Dec2024 16:51:13.874] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[20Dec2024 16:51:13.874] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[20Dec2024 16:51:13.875] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[20Dec2024 16:51:13.876] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[20Dec2024 16:51:13.877] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[20Dec2024 16:51:13.877] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[20Dec2024 16:51:13.877] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[20Dec2024 16:51:13.877] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[20Dec2024 16:51:13.877] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[20Dec2024 16:51:13.877] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[20Dec2024 16:51:13.877] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[20Dec2024 16:51:13.877] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[20Dec2024 16:51:13.878] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[20Dec2024 16:51:13.878] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[20Dec2024 16:51:13.878] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20Dec2024 16:51:13.878] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[20Dec2024 16:51:13.878] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[20Dec2024 16:51:13.878] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[20Dec2024 16:51:13.878] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[20Dec2024 16:51:13.878] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[20Dec2024 16:51:13.878] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[20Dec2024 16:51:13.978] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM-1] --------
+[20Dec2024 16:51:13.978] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[20Dec2024 16:51:13.978] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[20Dec2024 16:51:13.978] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[20Dec2024 16:51:13.978] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[20Dec2024 16:51:13.978] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20Dec2024 16:51:13.979] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[20Dec2024 16:51:13.979] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[20Dec2024 16:51:13.979] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[20Dec2024 16:51:13.979] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[20Dec2024 16:51:13.979] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[20Dec2024 16:51:13.979] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[20Dec2024 16:51:13.979] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[20Dec2024 16:51:13.979] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[20Dec2024 16:51:13.979] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[20Dec2024 16:51:13.979] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[20Dec2024 16:51:13.979] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[20Dec2024 16:51:13.979] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[20Dec2024 16:51:13.979] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[20Dec2024 16:51:13.979] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[20Dec2024 16:51:13.979] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[20Dec2024 16:51:13.982] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[20Dec2024 16:51:13.982] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[20Dec2024 16:51:13.983] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[20Dec2024 16:51:13.983] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[20Dec2024 16:51:13.983] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[20Dec2024 16:51:13.983] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[20Dec2024 16:51:13.983] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[20Dec2024 16:51:13.984] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[20Dec2024 16:51:13.985] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20Dec2024 16:51:13.985] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[20Dec2024 16:51:13.985] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[20Dec2024 16:51:13.985] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[20Dec2024 16:51:13.985] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[20Dec2024 16:51:13.985] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[20Dec2024 16:51:13.986] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[20Dec2024 16:51:14.026] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM1] --------
+[20Dec2024 16:51:14.026] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[20Dec2024 16:51:14.026] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[20Dec2024 16:51:14.027] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[20Dec2024 16:51:14.027] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[20Dec2024 16:51:14.027] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20Dec2024 16:51:14.027] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[20Dec2024 16:51:14.027] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[20Dec2024 16:51:14.027] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[20Dec2024 16:51:14.027] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[20Dec2024 16:51:14.027] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[20Dec2024 16:51:14.027] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[20Dec2024 16:51:14.027] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[20Dec2024 16:51:14.027] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[20Dec2024 16:51:14.027] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[20Dec2024 16:51:14.027] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[20Dec2024 16:51:14.027] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[20Dec2024 16:51:14.027] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[20Dec2024 16:51:14.027] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[20Dec2024 16:51:14.027] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[20Dec2024 16:51:14.027] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[20Dec2024 16:51:14.027] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[20Dec2024 16:51:14.027] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[20Dec2024 16:51:14.030] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[20Dec2024 16:51:14.030] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[20Dec2024 16:51:14.030] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[20Dec2024 16:51:14.030] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[20Dec2024 16:51:14.030] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[20Dec2024 16:51:14.034] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[20Dec2024 16:51:14.034] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20Dec2024 16:51:14.034] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[20Dec2024 16:51:14.034] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[20Dec2024 16:51:14.034] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[20Dec2024 16:51:14.034] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[20Dec2024 16:51:14.034] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[20Dec2024 16:51:14.034] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[20Dec2024 16:51:14.062] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/twilightforest/twilight_forest] --------
+[20Dec2024 16:51:14.062] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[20Dec2024 16:51:14.062] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[20Dec2024 16:51:14.062] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[20Dec2024 16:51:14.062] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[20Dec2024 16:51:14.062] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20Dec2024 16:51:14.063] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[20Dec2024 16:51:14.063] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[20Dec2024 16:51:14.063] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[20Dec2024 16:51:14.063] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[20Dec2024 16:51:14.063] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[20Dec2024 16:51:14.063] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[20Dec2024 16:51:14.063] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[20Dec2024 16:51:14.063] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[20Dec2024 16:51:14.063] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[20Dec2024 16:51:14.063] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[20Dec2024 16:51:14.063] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[20Dec2024 16:51:14.063] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[20Dec2024 16:51:14.063] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[20Dec2024 16:51:14.063] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[20Dec2024 16:51:14.063] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[20Dec2024 16:51:14.063] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[20Dec2024 16:51:14.063] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[20Dec2024 16:51:14.064] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[20Dec2024 16:51:14.064] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[20Dec2024 16:51:14.064] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[20Dec2024 16:51:14.064] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[20Dec2024 16:51:14.065] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[20Dec2024 16:51:14.065] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[20Dec2024 16:51:14.065] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20Dec2024 16:51:14.065] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[20Dec2024 16:51:14.065] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[20Dec2024 16:51:14.065] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[20Dec2024 16:51:14.065] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[20Dec2024 16:51:14.065] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[20Dec2024 16:51:14.065] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[20Dec2024 16:51:14.099] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[20Dec2024 16:51:14.113] [Server thread/INFO] [net.regions_unexplored.RegionsUnexploredMod/]: Loading dimension "minecraft:the_nether" with biome source: "minecraft:multi_noise".
+[20Dec2024 16:51:14.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[20Dec2024 16:51:17.473] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Dec2024 16:51:17.473] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Dec2024 16:51:17.476] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Dec2024 16:51:17.477] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Dec2024 16:51:17.478] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Dec2024 16:51:17.479] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Dec2024 16:51:17.479] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Dec2024 16:51:17.621] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Dec2024 16:51:18.118] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Dec2024 16:51:18.849] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4734 ms
+[20Dec2024 16:51:18.850] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (6.710s)! For help, type "help"
+[20Dec2024 16:51:18.958] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[20Dec2024 16:51:18.966] [Server thread/INFO] [Arclight/]: Forwarding forge permission[forge:default_handler] to bukkit
+[20Dec2024 16:51:18.971] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[20Dec2024 16:51:18.987] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
+[20Dec2024 16:51:18.988] [Server thread/WARN] [ModernFix/]: Dedicated server took 57.134 seconds to load
+[20Dec2024 16:54:33.092] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Gorou is e65432cb-85e7-3112-aae1-59a92695d45e
+[20Dec2024 16:54:35.440] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Gorou[/127.26.4.207:34575] logged in with entity id 205 at (55.5, 118.0, 122.5)
+[20Dec2024 16:54:35.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gorou joined the game
+[20Dec2024 16:54:40.086] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Gorou (18)
+[20Dec2024 16:54:40.089] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Gorou
+[20Dec2024 16:56:00.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gorou has completed the challenge [The Power of the Sun]
+[20Dec2024 16:56:07.782] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Gorou moved too quickly! 16.96736283139643,1.2069369011400113,4.3588493676434155
+[20Dec2024 16:56:07.794] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5355ms or 107 ticks behind
+[20Dec2024 16:56:14.256] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Gorou lost connection: Disconnected
+[20Dec2024 16:56:14.261] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Gorou
+[20Dec2024 16:56:14.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gorou left the game
